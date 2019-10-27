@@ -11,7 +11,7 @@
 			<div class="card" v-if="planet_name == planet.name">
 				<span>
 					<span>Имя:</span>
-					<span>&nbsp;{{planet.name}}</span>
+					<span style="color: orange;font-weight:bolder;" class="pink">&nbsp;{{planet.name}}</span>
 				</span>
 				<span>
 					<span>Вращение, часы:</span>
